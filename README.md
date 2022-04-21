@@ -27,6 +27,8 @@ https://github.com/DavidNyan10/GoogleMaterialIcons (icons)
 
 # addons
 
+https://raw.githubusercontent.com/hyblocker/pixelcord/v4/modules/appearance/icons/shapes/squircle.css
+
 https://github.com/FeroshUX/powercord-remove-pointer-events
 
 https://github.com/smarty6788/Dash2Space
