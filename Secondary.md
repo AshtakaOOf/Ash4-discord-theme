@@ -1,7 +1,8 @@
 # css snippets that do not have any github
 
 ## message link
- .mention.wrapper-1ZcZW- {
+``` 
+  .mention.wrapper-1ZcZW- {
     border-radius: 0;
     color: var(--old-blurple);
     background: var(--mention-10a);
@@ -43,8 +44,10 @@ body {
   --mention-10a: rgba(114,137,218,0.1);
   --mention-20a: rgba(114,137,218,0.2);
 }
+```
 
 ## Emoji selector slider
+```
 .chatContent-3KubbW .expression-picker-chat-input-button:nth-of-type(1),
 .chatContent-3KubbW .expression-picker-chat-input-button:nth-of-type(2) {
   order: -3 !important;
@@ -92,8 +95,10 @@ body {
     order: -2 !important;
   background-color: var(--channeltextarea-background);
 }
+```
 
 ## Spotify tweak
+``` 
 /* Re-round Spotify Status Images */
 .assetsLargeImageSpotify-17ME3M{border-radius:8px;}
 
@@ -128,6 +133,7 @@ body {
   border-radius: 0px;
   min-height: 53px;
 }
+```
 
 ## Edited message tweak
 /* edited text */
@@ -170,6 +176,7 @@ body {
 }
 
 ## Role tweak
+```
 /** Optional */
 @import "https://spinfish.github.io/css-snippets/snippets/filled-roles.css";
 
@@ -216,8 +223,10 @@ body {
 .addButtonIcon-1NMJ8u {
     display: none;
 }
+```
 
 ## media tweak
+```
 /* Horizontally listed media */
 [id*="message-accessories-"] {
     display: flex;
@@ -236,8 +245,10 @@ body {
 [id*="message-reactions"] {
     width: 100%;
 }
+```
 
 ## user toggle
+```
 /* Sidebar */
 .members-3l0kz9 {
     height: 100%;
@@ -285,8 +296,28 @@ body {
     pointer-events: none;
     opacity: 0;
 }
+```
 
 ## Bug fix 2
-.audioMetadata-3zOuGv::before {
+```.audioMetadata-3zOuGv::before {
     min-width: 24px;
 }
+```
+
+### Rounded user panel
+```
+/* Rounded User Panel */
+.container-YkUktl {
+         margin-right: 5px;
+         margin-bottom: 10px;
+         margin-left: 5px;
+         border: 1px solid rgb(78, 78, 81); 
+         border-radius: 20px;
+         box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.483);
+         background: rgba(0, 0, 0, 0.436); 
+    }
+.panels-3wFtMD {
+         background-color: #00000000;
+}
+```
+
