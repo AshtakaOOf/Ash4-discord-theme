@@ -45,6 +45,12 @@ body {
   --mention-20a: rgba(114,137,218,0.2);
 }
 ```
+## Little Friend Request Fix
+```
+.panel-3DsHLr {
+max-width: unset;
+}
+```
 
 ## Emoji selector slider
 ```
