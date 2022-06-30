@@ -35,6 +35,8 @@ https://github.com/smarty6788/Dash2Space
 
 https://github.com/kckarnige/transparent-menus
 
+https://github.com/FayneAldan/CompactSettings
+
 https://github.com/AshtakaOOf/Ash4-discord-theme/blob/main/Secondary.md
 
 # License
