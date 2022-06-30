@@ -310,7 +310,7 @@ max-width: unset;
 }
 ```
 
-### Rounded user panel
+## Rounded user panel
 ```
 /* Rounded User Panel */
 .container-YkUktl {
@@ -326,4 +326,104 @@ max-width: unset;
          background-color: #00000000;
 }
 ```
+## Collapsing Voice Panel
+```
+.container-1zzFcN .actionButtons-2vEOUh {
+  transition: 250ms ease-out;
+  padding-top: 0px;
+  opacity: 0;
+  height: 0;
+}
+.container-1zzFcN:hover .actionButtons-2vEOUh {
+  padding-top: 4px;
+  height: 36px;
+  opacity: 1;
+}
+```
+## Shoshinsha newbies!
+```
+/* Shoshinsha symbol for new server members */
+img.newMemberBadge-3PdStX, .iconContainer-11h7fa img {
+    background-image: url(/assets/bd766f88fab518680708df9935b50e85.svg);
+    padding: 20px 20px 0 0; 
+    background-size:auto; 
+    width:0px; 
+    height: 0px;
+}
 
+.iconContainer-11h7fa img {
+    padding: 40px 40px 0 0; 
+}
+```
+## Timestamp overhaul
+```
+.timestamp-6-ptG3 {
+  border-radius: 7px; 
+  padding: 2.5px;
+
+}
+
+.timestamp-6-ptG3::before {
+  content: url("data:image/svg+xml,%3Csvg width='12px' height='12px' role='img' fill='white' viewBox='0 0 520 520' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EDiscord%3C/title%3E%3Cpath d='M256,8C119,8,8,119,8,256S119,504,256,504,504,393,504,256,393,8,256,8Zm92.49,313h0l-20,25a16,16,0,0,1-22.49,2.5h0l-67-49.72a40,40,0,0,1-15-31.23V112a16,16,0,0,1,16-16h32a16,16,0,0,1,16,16V256l58,42.5A16,16,0,0,1,348.49,321Z'/%3E%3C/svg%3E");
+    margin: 4px;
+    position: relative;
+    top: 1.5px;
+}
+
+.theme-light .timestamp-6-ptG3::before {
+  filter: invert(87%); 
+}
+```
+## Better profile modal
+```
+:root{
+    --radius:4px!important;
+    --roles-colums:135px 135px;
+    --popout-backdrop:rgba(0,0,0,0.562);
+    --popout-backdrop-blur:blur(1.5px);
+    --popout-modal-badges-style:30px;
+    --popout-badges-radius:0 12px 12px 0;
+    --popout-badges-transparency:rgba(2,2,2,0.5);
+    --avatar-profile-banner-blur:blur(0.9px);
+    --avatar-profile-banner-opacity:.4;
+    --popout-backdrop:rgba(0,0,0,0.562);
+    --popout-backdrop-blur:blur(1.5px)
+}
+.backdrop-2ByYRN{background-color:var(--popout-backdrop)!important;backdrop-filter:var(--popout-backdrop-blur)!important}
+.profileBannerPremium-KD60EB,.profileBanner-1owKI5{height:280px;filter:var(--avatar-profile-banner-blur);opacity:var(--avatar-profile-banner-opacity);margin:15px;margin-bottom:0;border-radius:var(--radius)}
+.avatar-3QF_VA{position:absolute!important;top:-220px!important;left:40.2%!important;border:0 solid var(--background-floating)!important;background-color:var(--background-floating)!important}
+.nameTag-2Nlmsy{top:145px;left:185px;position:fixed;width:200px!important;max-width:200px!important}
+.badgeList-2aoHPw{display:grid;flex-direction:column;grid-template-columns:var(--popout-modal-badges-style);left:14px;top:74px;width:max-content;background-color:var(--popout-badges-transparency);border-radius:var(--popout-badges-radius);padding:4px;position:fixed}
+.nameTag-2Nlmsy,.nameTag-2Nlmsy .discriminator-1bqsd3,.tabBarContainer-sCZC4w{display:flex;justify-content:center;text-align:center}
+.customStatusActivity-WKWGD-{padding:0 16px 8px}
+.top-K_jibn .item-3XjbnG{background-color:var(--background-secondary);padding:8px;border-bottom:0 solid transparent;border-radius:var(--radius);margin:10px 5px}
+.top-K_jibn .item-3XjbnG:hover{background-color:var(--alt-color2)}
+.tabBarContainer-sCZC4w{padding-top:0;margin-top:0!important;padding-bottom:10px;border-bottom:1px solid var(--background-modifier-accent)}
+.empty-2zcusz{align-content:center;align-items:center;text-align:center;width:560px}
+.relationshipButtons-3ByBpj{position:fixed;top:30px;right:25px}
+@media only screen and (min-height: 1235px) {
+.body-1Ukv50{max-height:680px!important;min-height:680px!important}
+}
+@media only screen and (max-height: 1240px) {
+.body-1Ukv50{max-height:680px!important;min-height:470px!important}
+}
+@media only screen and (max-height: 1030px) {
+.body-1Ukv50{max-height:470px!important;min-height:320px!important}
+}
+@media only screen and (max-height: 830px) {
+.body-1Ukv50{max-height:320px!important;min-height:130px!important}
+}
+.customStatusText-_4TbWr{padding:8px;margin-top:55px!important;border-radius:var(--radius);align-content:center;align-items:center;text-align:center;background-color:var(--background-secondary)}
+.customStatusText-_4TbWr::before{content:"STATUS";background-color:var(--background-secondary-alt);padding:8px;position:absolute!important;left:15px!important;top:305px!important;border-radius:var(--radius);color:var(--header-secondary)!important;font-weight:700;font-size:13px;text-transform:uppercase!important;width:553px!important;align-content:center;align-items:center;text-align:center}
+.userInfoSectionHeader-2mYYun{padding:8px;border-radius:var(--radius);align-content:center;align-items:center;text-align:center;background-color:var(--background-secondary-alt)}
+.userInfoText-2MFCmH{padding:8px;margin-top:15px;border-radius:var(--radius);align-content:center;align-items:center;text-align:center;background-color:var(--background-secondary)}
+.note-3M15gE textarea{width:560px;margin-left:4px;margin-top:15px;border-radius:var(--radius);align-content:center;align-items:center;text-align:center;background-color:var(--background-secondary);padding:8px 0}
+.connectedAccounts-1YaT2t::before{content:"Connected Accounts";background-color:var(--background-secondary-alt);padding:8px;margin-top:8px;border-radius:var(--radius);color:var(--header-secondary)!important;font-weight:700;font-size:13px;text-transform:uppercase!important;width:543px;align-content:center;align-items:center;text-align:center}
+.userInfoSection-2u2hir+.userInfoSection-2u2hir{border-top:0 solid var(--background-modifier-accent)!important}
+.connectedAccount-1xKpli{padding:8px;margin-top:15px;border-radius:var(--radius);align-content:center;align-items:center;text-align:center;background-color:var(--background-secondary)}
+.connectedAccounts-1YaT2t{width:560px!important}
+.listScroller-entkMk{display:grid!important;flex-direction:column!important;grid-template-columns:285px 285px;border-radius:var(--radius);padding:4px;height:auto;align-content:center;align-items:center;margin-top:10px;margin-left:10px}
+.listRow-2nO1T6{height:50px;background-color:var(--background-secondary);border-radius:var(--radius);padding:4px}
+.listAvatar-2bU5Uh,.listRowContent-PEmSWj{margin-left:10px;padding:1px}
+.lookFilled-yCfaCM.colorGreen-3y-Z79{border-radius:var(--radius)}
+```
