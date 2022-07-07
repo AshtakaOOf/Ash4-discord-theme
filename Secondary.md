@@ -487,3 +487,18 @@ img.newMemberBadge-3PdStX, .iconContainer-11h7fa img {
    .membersWrap-3NUR2t.hiddenMembers-8kpYM0 { display: flex; }
 }
 ```
+## Circle Folder
+```
+.folder-241Joy, .folderIconWrapper-1oRIZr {
+    width: 48px;
+    height: 48px;
+    -webkit-transition: background-color .15s ease-out;
+    transition: background-color .15s ease-out;
+    border-radius: 100px;
+/* Not important but its better */
+}
+.iconSizeSmol-qsFaRK {
+    width: 15px;
+    height: 15px;
+}
+```
