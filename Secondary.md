@@ -427,3 +427,15 @@ img.newMemberBadge-3PdStX, .iconContainer-11h7fa img {
 .listAvatar-2bU5Uh,.listRowContent-PEmSWj{margin-left:10px;padding:1px}
 .lookFilled-yCfaCM.colorGreen-3y-Z79{border-radius:var(--radius)}
 ```
+## Bigger Connections
+```
+.text-md-semibold-3xVVGu {
+    font-weight: 200;
+}
+
+.connectedAccountIcon-1FXG0p {
+    width: 27px;
+    height: 27px;
+    flex-shrink: 0;
+}
+```
