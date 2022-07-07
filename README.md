@@ -19,8 +19,6 @@ https://github.com/mr-miner1/Better-Badges (animated profile badges)
 
 https://github.com/discord-extensions/gradient-buttons (button gradient) 
 
-https://github.com/Discord-Theme-Addons/refined-user-connections (profile connections) 
-
 https://github.com/mr-miner1/cooler-activity-status (rich presence) 
 
 https://github.com/DavidNyan10/GoogleMaterialIcons (icons) 
