@@ -439,3 +439,51 @@ img.newMemberBadge-3PdStX, .iconContainer-11h7fa img {
     flex-shrink: 0;
 }
 ```
+## Chromium Link Preview
+```
+.theme-dark {
+  --linkpreview-background: #35363a;
+  --linkpreview-color: #e8eaed;
+  --linkpreview-border: #2f3033;
+}
+.theme-light {
+  --linkpreview-background: #dee1e6;
+  --linkpreview-color: #3c4043;
+  --linkpreview-border: transparent;
+}
+.markup-eYLPri .anchor-1MIwyf:after {
+  content: attr(href);
+  display: flex;
+  align-items: center;
+  z-index: 9999;
+  background: var(--linkpreview-background);
+  line-height: normal;
+  font-weight: normal;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: var(--linkpreview-color);
+  font-size: 12px;
+  padding: 3px 4px;
+  padding-right: 6px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transition: 200ms ease;
+  white-space: nowrap;
+  box-shadow: inset 0 0 0 1px var(--linkpreview-border);
+  border-top-right-radius: 3px;
+  pointer-events: none;
+}
+.markup-eYLPri .anchor-1MIwyf:hover:after {
+  opacity: 1;
+}
+```
+## Hide member list if discord is under X pixels long
+```
+/* Hide the member list if Discord is under *X* pixels long */
+   .membersWrap-3NUR2t.hiddenMembers-8kpYM0 { display: none; }
+@media screen and (min-width: 1100px) { /* <-- Modify minimum width as you wish */
+   .membersWrap-3NUR2t.hiddenMembers-8kpYM0 { display: flex; }
+}
+```
